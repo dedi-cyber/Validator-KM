@@ -1,0 +1,6 @@
+{
+  "name": "Validasi Kurikulum Madrasah",
+  "description": "Aplikasi penjaminan mutu dan validasi dokumen kurikulum madrasah sesuai instrumen resmi Kementerian Agama RI, dilengkapi dashboard laporan terpadu, cetak PDF, ekspor data, serta sistem login berbasis peran.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
