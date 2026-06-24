@@ -15,7 +15,7 @@ import LoginScreen from './components/LoginScreen';
 import DashboardOverview from './components/DashboardOverview';
 import ValidationSheet from './components/ValidationSheet';
 import MadrasahList from './components/MadrasahList';
-
+import logoKemenag from './assets/logo-kemenag.png';
 export default function App() {
   // Theme Management (Supports Dark Mode)
   const [darkMode, setDarkMode] = useState<boolean>(() => {
@@ -281,9 +281,8 @@ export default function App() {
                 {/* Logo & Branding */}
                 <div className="flex items-center gap-3 cursor-pointer" onClick={() => setActiveTab('dashboard')}>
                   <img 
-                    src="https://upload.wikimedia.org/wikipedia/commons/a/af/Kementerian_Agama_Logo.png" 
-                    alt="Emblem Kemenag" 
-                    referrerPolicy="no-referrer"
+                    src={logoKemenag}
+                    alt="Logo Kementerian Agama"
                     className="w-10 h-10 object-contain bg-white rounded-full p-0.5 shadow-md shrink-0"
                   />
                   <div>
